@@ -13,6 +13,7 @@ class Volume extends AbstractPhysicalQuantity
         // Cubic meter
         $cubicmeter = UnitOfMeasure::nativeUnitFactory('m^3');
         $cubicmeter->addAlias('m³');
+        $cubicmeter->addAlias('㎥');
         $cubicmeter->addAlias('cubic meter');
         $cubicmeter->addAlias('cubic meters');
         $cubicmeter->addAlias('cubic metre');
