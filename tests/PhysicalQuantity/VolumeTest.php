@@ -9,6 +9,7 @@ class VolumeTest extends AbstractPhysicalQuantityTestCase
     protected $supportedUnitsWithAliases = [
         'm^3',
         'm³',
+        '㎥',
         'cubic meter',
         'cubic meters',
         'cubic metre',
